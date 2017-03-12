@@ -42,7 +42,7 @@ namespace ProjetoTCC
         private void Form1_Load(object sender, EventArgs e)
         {
             
-           // webBrowser1.Navigate("https://scratch.mit.edu/projects/editor/");
+           webBrowser1.Navigate("https://scratch.mit.edu/projects/editor/");
 
             string conectarDB = "Persist Security Info=false;server=localhost;database=dbChecklist;uid=root;server=localhost;database=dbChecklist;uid=root;pwd=admin";
             MySqlConnection conectar = new MySqlConnection(conectarDB);
